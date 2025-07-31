@@ -1,0 +1,54 @@
+1) "22a3a1e6-ee13-4b9d-8d59-ff9c24b18b06" -> "439e22f7-e59f-4acb-9dc5-6e8c37f6c5ef"
+
+2) "30850804-bd80-4617-bd35-cc8649d636da" -> "6a395487-295b-4fce-91c7-50b8e18986ca" -> "ee6a1067-e65a-467a-ad79-f0f42566de8c" -> "2586e64b-12a8-4cb9-9a88-fbecd635046f" -> "032f546a-d005-463d-856d-7e502d9002de" -> ["2465e372-1a98-4088-bc1d-4353d335f92b", "107325ad-6bde-4492-b7f6-4d5a2dfb0c7c", "4b7666f4-4045-4ab2-aa4d-b7f26b7a8e54", "107325ad-6bde-4492-b7f6-4d5a2dfb0c7c"]
+
+3) "fe8849dc-cf9f-404d-87a2-c833e6610dbb" -> "7c013cc3-79cf-4db2-8c9a-75408b1b0ccf" -> ["0d22dca7-6bf6-4fd5-80a0-584cd2d9b9ce", "9ba0835c-8344-48e3-967a-f46f0e02db8c"]
+
+4) "e9971382-a7b8-4398-87c7-3fe8c15ab503" -> ["883d13b7-f213-4fcb-9c22-51bea05766ca", "23df7ab8-1629-4edf-93b8-9134fbdb51d7"] -> "e6b849ab-a2af-4df6-930f-784c15f5f42d"
+(from)
+"8c604fdd-53c9-4c2a-9433-fb14e1ed6362" => ["07452e03-006a-40d5-b998-522408afbc33", "c5932d55-fc67-4100-901b-96a1582567d7"] => "7e6153b1-3b2d-45e4-acf4-4a54c936ba3b"
+(from)
+part_3.json
+
+
+"ff9f4bb3-6876-46ef-a858-d8f84c7b0414",
+"4e3f21df-484d-48ce-950e-01319588822a",
+"5e81a0ea-28f1-4999-b01f-0d613d27f59d",
+"a5cf75d8-27fa-429e-9d26-fc1f04436ce8",
+"8c604fdd-53c9-4c2a-9433-fb14e1ed6362",
+"07452e03-006a-40d5-b998-522408afbc33",
+"c5932d55-fc67-4100-901b-96a1582567d7",
+"7e6153b1-3b2d-45e4-acf4-4a54c936ba3b",
+"bbcc318d-4cba-49c7-8ed0-abff91955f11",
+"7d7579e0-4951-4b6f-b4f4-2dc0ed40862e",
+"13f70665-c23c-472a-8f41-da89f65d1421",
+"9755c661-a176-4c0b-acbc-7f10528526cd",
+"fe22b357-11d7-4108-bd2f-ba5d408b9354",
+"7e498221-d92c-4785-9206-1b72575e0392",
+"29df63ce-15ee-471c-b876-4c3dd5c67fbb",
+"e2965329-61aa-429f-b1d8-d7037466bc6b",
+"805fb876-b647-4c1c-8f86-a2fb0e1f9350",
+"18a19759-16dc-4ba4-9a5c-6e2a43fc2650",
+"46069c90-8bdc-46b2-80ed-5b582ac1e302"
+
+
+
+"bbcc318d-4cba-49c7-8ed0-abff91955f11"; generating catalog error license; 307
+"7d7579e0-4951-4b6f-b4f4-2dc0ed40862e"; error missing license configuration for rel; 307
+"13f70665-c23c-472a-8f41-da89f65d1421"; make error; 26616
+"9755c661-a176-4c0b-acbc-7f10528526cd"; makefile recipe for target failed; 11152
+"fe22b357-11d7-4108-bd2f-ba5d408b9354"; make error; 26616
+"7e498221-d92c-4785-9206-1b72575e0392"; makefile recipe for target failed; 11152
+"29df63ce-15ee-471c-b876-4c3dd5c67fbb"; make no rule to make target needed by stop; 5395
+"e2965329-61aa-429f-b1d8-d7037466bc6b"; no such file or directory; 571825
+"805fb876-b647-4c1c-8f86-a2fb0e1f9350"; no input files; 24957
+"18a19759-16dc-4ba4-9a5c-6e2a43fc2650"; no such file or directory
+"46069c90-8bdc-46b2-80ed-5b582ac1e302"; no input files
+"ff9f4bb3-6876-46ef-a858-d8f84c7b0414"; fail
+"4e3f21df-484d-48ce-950e-01319588822a"; compile failed using
+"5e81a0ea-28f1-4999-b01f-0d613d27f59d"; error declaration of c function conflicts with
+"a5cf75d8-27fa-429e-9d26-fc1f04436ce8"; error previous declaration here
+"8c604fdd-53c9-4c2a-9433-fb14e1ed6362"; error copera job operators build bat executor subprocess error for bat command
+"07452e03-006a-40d5-b998-522408afbc33"; error job type name had an exception
+"c5932d55-fc67-4100-901b-96a1582567d7"; error job type name had an exception
+"7e6153b1-3b2d-45e4-acf4-4a54c936ba3b"; subprocess calledprocesserror command returned non zero exit status

@@ -3,7 +3,7 @@ from causallearn.search.ConstraintBased.PC import pc
 from causallearn.utils.cit import CIT
 
 # === CONFIGURAÇÃO ===
-ARQUIVO_LOG = "logs_teste.log"  # seu arquivo .log
+ARQUIVO_LOG = "logs/logs_teste.log"  # seu arquivo .log
 ALPHA = 0.05  # nível de significância
 
 # === 1. Leitura do arquivo .log ===

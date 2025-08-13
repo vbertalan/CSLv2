@@ -1,0 +1,13 @@
+source,target
+"compilation failed, linking failed",compilation failed
+"compilation failed, linking failed, network timeout",compilation failed
+"compilation failed, linking failed, network timeout","compilation failed, network timeout"
+"disk full, compilation failed, linking failed","disk full, compilation failed"
+"disk full, compilation failed, linking failed, build aborted",compilation failed
+"disk full, compilation failed, linking failed, build aborted","compilation failed, network timeout"
+"disk full, compilation failed, linking failed, build aborted","disk full, compilation failed"
+"disk full, compilation failed, linking failed, build aborted, network timeout",compilation failed
+"disk full, compilation failed, linking failed, build aborted, network timeout","disk full, compilation failed, linking failed"
+"disk full, compilation failed, linking failed, network timeout","disk full, compilation failed"
+network timeout,compilation failed
+network timeout,"disk full, compilation failed, linking failed"

@@ -1,0 +1,13 @@
+source,target,relation
+"compilation failed, network timeout","compilation failed, linking failed",directed
+"compilation failed, network timeout","compilation failed, linking failed, network timeout",directed
+"disk full, compilation failed, linking failed","compilation failed, linking failed, network timeout",directed
+"disk full, compilation failed, linking failed, network timeout",compilation failed,directed
+"disk full, compilation failed, linking failed, network timeout","compilation failed, linking failed",directed
+"disk full, compilation failed, network timeout",compilation failed,directed
+"disk full, compilation failed, network timeout","compilation failed, linking failed",directed
+network timeout,"compilation failed, linking failed, network timeout",directed
+"disk full, compilation failed","disk full, compilation failed, linking failed",undirected
+"disk full, compilation failed, linking failed","disk full, compilation failed",undirected
+"disk full, compilation failed, network timeout",network timeout,undirected
+network timeout,"disk full, compilation failed, network timeout",undirected

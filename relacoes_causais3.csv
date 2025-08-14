@@ -1,0 +1,262 @@
+source,target,relation
+awk symbol lookup error awk undefined symbol,cccp invalid option,directed
+cannot open directory dhcp,find no such file or directory,directed
+cannot open directory grub d,cannot open directory dhcp,directed
+cc error unrecognized command line option,no such file or directory,directed
+ccppc linker input file unused because linking not done,cccp invalid option,directed
+ccppc linker input file unused because linking not done,ccpentium linker input file unused because linking not done,directed
+compile failed using,cc error unrecognized command line option,directed
+compile failed using,fail,directed
+cp cannot stat no such file or directory,cannot open directory grub d,directed
+cp cannot stat no such file or directory,cc error unrecognized command line option,directed
+cp cannot stat too many levels of symbolic links,jq error at stdin null null has no keys,directed
+cp cannot stat too many levels of symbolic links,sed can t read no such file or directory,directed
+error conflicting types for,error previous definition of was here,directed
+error conflicting types for,error undeclared first use in this function,directed
+error declaration of c function conflicts with,compile failed using,directed
+error declaration of c function conflicts with,fail,directed
+error declaration of c function conflicts with,tput no value for term and no t specified,directed
+error for each function it appears in,error each undeclared identifier is reported only once,directed
+error for each function it appears in,error syntax error before,directed
+error gnu compilers before are not supported anymore,cccp invalid option,directed
+error no match for in,cat no such file or directory,directed
+error no match for in,compile failed using,directed
+error no match for in,fail,directed
+error no match for in,tput no value for term and no t specified,directed
+error no repo found,find permission denied,directed
+error no repo found,jq error at stdin null null has no keys,directed
+error objects is different in vs,find permission denied,directed
+error previous declaration here,fail,directed
+error previous declaration of was here,cannot open directory grub d,directed
+error previous declaration of was here,error conflicting types for,directed
+error previous declaration of was here,error previous definition of was here,directed
+error python version is not available,cc error unrecognized command line option,directed
+error requested alignment is not a constant,cannot open directory dhcp,directed
+error requested alignment is not a constant,error undeclared first use in this function,directed
+error syntax error before,cannot open directory grub d,directed
+error syntax error before,cc error unrecognized command line option,directed
+error syntax error before,error each undeclared identifier is reported only once,directed
+error syntax error before,error enumerator value for not integer constant,directed
+error syntax error before,error requested alignment is not a constant,directed
+error syntax error before,error syntax error before token,directed
+error syntax error before token,error conflicting types for,directed
+error syntax error before token,error requested alignment is not a constant,directed
+error total count of warnings has increased when compared,cat no such file or directory,directed
+error total count of warnings has increased when compared,ccpentium linker input file unused because linking not done,directed
+error undeclared first use in this function,error each undeclared identifier is reported only once,directed
+error undeclared first use in this function,error syntax error before token,directed
+error unsupported toolchain,cccp invalid option,directed
+error unsupported toolchain,ccpentium linker input file unused because linking not done,directed
+error unsupported toolchain,compile failed using,directed
+error unsupported toolchain,no such file,directed
+fail,ccpentium linker input file unused because linking not done,directed
+fail,error syntax error before,directed
+fail,error syntax error before token,directed
+file line column aid reference not found ccmd slots,file line column aid reference not found ccmd,directed
+file line column aid reference not found ccmd slots,file line column aid reference not found cmd slots,directed
+file line column aid reference not found cmd,file line column aid reference not found ccmd,directed
+file line column aid reference not found cmd,file line column aid reference not found in rtrv eqptmode,directed
+file line column aid reference not found cmd,tput no value for term and no t specified,directed
+file line column aid reference not found cmd slots,cp cannot stat no such file or directory,directed
+file line column aid reference not found cmda,file line column aid reference not found ccmd,directed
+file line column aid reference not found cmda,file line column aid reference not found cmd,directed
+file line column aid reference not found cmda,file line column aid reference not found in rtrv defect,directed
+file line column aid reference not found cmda,file line column aid reference not found in rtrv eqptmode,directed
+file line column aid reference not found cmda slots,cp cannot stat no such file or directory,directed
+file line column aid reference not found cmda slots,file line column aid reference not found ccmd slots,directed
+file line column aid reference not found cmdaandnone,cp cannot stat no such file or directory,directed
+file line column aid reference not found cmdaandnone,file line column aid reference not found in chk usb,directed
+file line column aid reference not found commssttp,cp cannot stat no such file or directory,directed
+file line column aid reference not found dla,cp cannot stat no such file or directory,directed
+file line column aid reference not found dla,file line column aid reference not found cmd,directed
+file line column aid reference not found dla slots,cp cannot stat no such file or directory,directed
+file line column aid reference not found dla slots,file line column aid reference not found ccmd slots,directed
+file line column aid reference not found dla slots,file line column aid reference not found cmd slots,directed
+file line column aid reference not found dla slots,file line column aid reference not found cmda slots,directed
+file line column aid reference not found dla slots,file line column aid reference not found commssttp,directed
+file line column aid reference not found dosc,file line column aid reference not found ccmd slots,directed
+file line column aid reference not found dosc,file line column aid reference not found cmd slots,directed
+file line column aid reference not found dosc,file line column aid reference not found uosc,directed
+file line column aid reference not found dra,file line column aid reference not found ccmd,directed
+file line column aid reference not found dra,file line column aid reference not found ccmd slots,directed
+file line column aid reference not found dra,file line column aid reference not found dla,directed
+file line column aid reference not found dra slots,file line column aid reference not found cmd slots,directed
+file line column aid reference not found dra slots,file line column aid reference not found commssttp,directed
+file line column aid reference not found dra slots,file line column aid reference not found dla,directed
+file line column aid reference not found dra slots,file line column aid reference not found dla slots,directed
+file line column aid reference not found dra slots,tput no value for term and no t specified,directed
+file line column aid reference not found gmd,couldn t find a latest folder to hardlink with,directed
+file line column aid reference not found gmd,file line column aid reference not found cmda slots,directed
+file line column aid reference not found gmd,file line column aid reference not found dosc,directed
+file line column aid reference not found in,file line column aid reference not found ccmd,directed
+file line column aid reference not found in,file line column aid reference not found cmd,directed
+file line column aid reference not found in,file line column aid reference not found dra slots,directed
+file line column aid reference not found in chk usb,file line column aid reference not found in rtrv eqptmode,directed
+file line column aid reference not found in rtrv defect,file line column aid reference not found cmdaandnone,directed
+file line column aid reference not found in rtrv defect,file line column aid reference not found commssttp,directed
+file line column aid reference not found in rtrv eqptmode,file line column aid reference not found ccmd,directed
+file line column aid reference not found sttpxxpgm,file line column aid reference not found dra slots,directed
+file line column aid reference not found sttpxxpgm,file line column aid reference not found in rtrv defect,directed
+file line column aid reference not found uosc,file line column aid reference not found ccmd slots,directed
+file line column aid reference not found uosc,file line column aid reference not found cmd slots,directed
+file line column aid reference not found uosc,file line column aid reference not found cmda slots,directed
+file line column aid reference not found uosc,file line column aid reference not found dla,directed
+file line column aid reference not found uosc,file line column aid reference not found wss,directed
+file line column aid reference not found wss,file line column aid reference not found dla,directed
+file line column aid reference not found wss,file line column aid reference not found dra,directed
+file line column aid reference not found wss slots,directory not empty,directed
+file line column aid reference not found wss slots,error total count of warnings has increased when compared,directed
+file line column aid reference not found wss slots,file line column aid reference not found cmd slots,directed
+file line column aid reference not found wss slots,file line column aid reference not found commssttp,directed
+file line column aid reference not found wss slots,file line column aid reference not found dla slots,directed
+file line column aid reference not found wss slots,file line column aid reference not found dra slots,directed
+file line column aid reference not found wssandnone,file line column aid reference not found cmdaandnone,directed
+find docker permission denied,find permission denied,directed
+find no such file or directory,cannot open directory grub d,directed
+find no such file or directory,error requested alignment is not a constant,directed
+find no such file or directory,fail,directed
+find no such file or directory,line toolsetup command not found,directed
+genboundsdata command not found,error total count of warnings has increased when compared,directed
+invalid suffix on integer constant,cccp invalid option,directed
+invalid suffix on integer constant,error enumerator value for not integer constant,directed
+invalid suffix on integer constant,fail,directed
+jq error at stdin null null has no keys,cat no such file or directory,directed
+jq error at stdin null null has no keys,compile failed using,directed
+jq error at stdin null null has no keys,cp cannot stat no such file or directory,directed
+jq error at stdin null null has no keys,did not find any package,directed
+jq error at stdin null null has no keys,error gnu compilers before are not supported anymore,directed
+jq error at stdin null null has no keys,file line column aid reference not found ccmd,directed
+jq error at stdin null null has no keys,file line column aid reference not found dla slots,directed
+ldppc bfd assertion fail,did not find any package,directed
+ldppc bfd assertion fail,ldppc cannot find lvxsnmp,directed
+ldppc bfd assertion fail,sed can t read no such file or directory,directed
+ldppc cannot find lflxcryptostandalone,file line column aid reference not found cmd,directed
+ldppc cannot find lflxhaladapter,file line column aid reference not found dosc,directed
+ldppc cannot find lflxhaladapter,ldppc cannot find lflxcryptostandalone,directed
+ldppc cannot find lflxhaladapter,ldppc cannot find lflxsignaturersa,directed
+ldppc cannot find lflxsignaturersa,file line column aid reference not found dra slots,directed
+ldppc cannot find lflxsignaturersa,ldppc cannot find lflxcryptostandalone,directed
+ldppc cannot find lsnmpdvx ppc,file line column aid reference not found ccmd,directed
+ldppc cannot find lstlport,file line column aid reference not found cmda slots,directed
+ldppc cannot find lstlport,ldppc cannot find lflxcryptostandalone,directed
+ldppc cannot find lstlport,ldppc cannot find lflxsignaturersa,directed
+ldppc cannot find lvxsnmp,cccp invalid option,directed
+ldppc cannot find lvxsnmp,cp cannot stat no such file or directory,directed
+ldppc cannot find lvxsnmp,fail,directed
+ldppc cannot find lvxsnmp,jq error at stdin null null has no keys,directed
+line cleartool command not found,did not find any package,directed
+line cleartool command not found,error python version is not available,directed
+line cleartool command not found,jq error at stdin null null has no keys,directed
+line no such file or directory,find no such file or directory,directed
+line no such file or directory,jq error at stdin null null has no keys,directed
+line toolsetup command not found,cannot open directory dhcp,directed
+line toolsetup command not found,cannot open directory grub d,directed
+line toolsetup command not found,cc error unrecognized command line option,directed
+line toolsetup command not found,line no such file or directory,directed
+ls cannot access no such file or directory,couldn t find a latest folder to hardlink with,directed
+ls cannot access no such file or directory,cp cannot stat no such file or directory,directed
+ls cannot access no such file or directory,ldppc cannot find lflxsignaturersa,directed
+make cleartool command not found,cat no such file or directory,directed
+make cleartool command not found,cp cannot stat no such file or directory,directed
+make cleartool command not found,jq error at stdin null null has no keys,directed
+mkdir cannot create directory file exists,cannot open directory dhcp,directed
+mkdir cannot create directory file exists,find no such file or directory,directed
+mkdir cannot create directory file exists,jq error at stdin null null has no keys,directed
+mv cannot stat no such file or directory,directory not empty,directed
+mv cannot stat no such file or directory,file line column aid reference not found ccmd,directed
+mv cannot stat no such file or directory,file line column aid reference not found cmd slots,directed
+mv cannot stat no such file or directory,make cleartool command not found,directed
+no input files,jq error at stdin null null has no keys,directed
+no input files,no such file or directory,directed
+no such file,cccp invalid option,directed
+no such file,cp cannot stat no such file or directory,directed
+no such file,find no such file or directory,directed
+no such file,genboundsdata command not found,directed
+no such file,make cleartool command not found,directed
+no such file or directory,error python version is not available,directed
+no such file or directory,error syntax error before,directed
+no such file or directory,error undeclared first use in this function,directed
+no such file or directory,genboundsdata command not found,directed
+no such file or directory,line toolsetup command not found,directed
+no such file or directory,make cleartool command not found,directed
+not a directory,cat no such file or directory,directed
+not a directory,directory not empty,directed
+not a directory,file line column aid reference not found in rtrv defect,directed
+not a directory,ldppc cannot find lflxcryptostandalone,directed
+not a directory,mv cannot stat no such file or directory,directed
+not a directory,tput no value for term and no t specified,directed
+rm cannot remove no such file or directory,cat no such file or directory,directed
+rm cannot remove no such file or directory,error total count of warnings has increased when compared,directed
+rm cannot remove no such file or directory,file line column aid reference not found dla slots,directed
+rm cannot remove no such file or directory,genboundsdata command not found,directed
+rm cannot remove no such file or directory,no such file,directed
+rm cannot remove no such file or directory,sed can t read temp no such file or directory,directed
+sed can t read no such file or directory,did not find any package,directed
+sed can t read no such file or directory,find permission denied,directed
+sed can t read no such file or directory,jq error at stdin null null has no keys,directed
+sed can t read no such file or directory,ldppc cannot find lvxsnmp,directed
+sed can t read no such file or directory,make cleartool command not found,directed
+sed can t read no such file or directory,no such file,directed
+sed can t read sed no such file or directory,did not find any package,directed
+sed can t read sed no such file or directory,make cleartool command not found,directed
+sed can t read temp no such file or directory,cccp invalid option,directed
+sed can t read temp no such file or directory,error gnu compilers before are not supported anymore,directed
+sed can t read temp no such file or directory,mv cannot stat no such file or directory,directed
+sed can t read temp no such file or directory,no such file,directed
+tput no value for term and no t specified,cp cannot stat no such file or directory,directed
+tput no value for term and no t specified,did not find any package,directed
+tput no value for term and no t specified,file line column aid reference not found commssttp,directed
+tput no value for term and no t specified,genboundsdata command not found,directed
+tput no value for term and no t specified,ldppc cannot find lvxsnmp,directed
+tput no value for term and no t specified,line no such file or directory,directed
+tput no value for term and no t specified,mv cannot stat no such file or directory,directed
+tput no value for term and no t specified,no such file,directed
+tput no value for term and no t specified,sed can t read temp no such file or directory,directed
+attributeerror type object has no attribute,response text,undirected
+attributeerror type object has no attribute,valueerror jira not promoted because built in expecting,undirected
+awk symbol lookup error awk undefined symbol,line cleartool command not found,undirected
+cp cannot copy cyclic symbolic link,error job type name had an exception,undirected
+cp cannot copy cyclic symbolic link,typeerror a bytes like object is required not,undirected
+cp cannot stat too many levels of symbolic links,error no repo found,undirected
+error declaration of c function conflicts with,error previous declaration here,undirected
+error gnu compilers before are not supported anymore,error unsupported toolchain,undirected
+error job type name had an exception,cp cannot copy cyclic symbolic link,undirected
+error job type name had an exception,failed in branch,undirected
+error no repo found,cp cannot stat too many levels of symbolic links,undirected
+error objects is different in vs,jiraerror jiraerror http url,undirected
+error previous declaration here,error declaration of c function conflicts with,undirected
+error unable to normalize alternate object path,no input files,undirected
+error unable to normalize alternate object path,typeerror a bytes like object is required not,undirected
+error unsupported toolchain,error gnu compilers before are not supported anymore,undirected
+failed in branch,error job type name had an exception,undirected
+file line column aid reference not found in,file line column aid reference not found sttpxxpgm,undirected
+file line column aid reference not found sttpxxpgm,file line column aid reference not found in,undirected
+file line column aid reference not found sttpxxpgm,file line column aid reference not found wssandnone,undirected
+file line column aid reference not found wssandnone,file line column aid reference not found sttpxxpgm,undirected
+invalid suffix on integer constant,rm cannot remove no such file or directory,undirected
+jiraerror jiraerror http url,error objects is different in vs,undirected
+jiraerror jiraerror http url,text field cannot be set it is not on the appropriate screen or unknown field cannot be set it is not on the appropriate screen or unknown,undirected
+ldppc bfd assertion fail,sed can t read sed no such file or directory,undirected
+ldppc cannot find lappweb,ldppc cannot find lflxembedded,undirected
+ldppc cannot find lappweb,ldppc cannot find lsnmpdvx ppc,undirected
+ldppc cannot find lflxembedded,ldppc cannot find lappweb,undirected
+ldppc cannot find lflxembedded,ldppc cannot find lflxhaladapter,undirected
+ldppc cannot find lflxembedded,ldppc cannot find lsnmpdvx ppc,undirected
+ldppc cannot find lflxembedded,not a directory,undirected
+ldppc cannot find lflxhaladapter,ldppc cannot find lflxembedded,undirected
+ldppc cannot find lflxhaladapter,ldppc cannot find lstlport,undirected
+ldppc cannot find lsnmpdvx ppc,ldppc cannot find lappweb,undirected
+ldppc cannot find lsnmpdvx ppc,ldppc cannot find lflxembedded,undirected
+ldppc cannot find lstlport,ldppc cannot find lflxhaladapter,undirected
+line cleartool command not found,awk symbol lookup error awk undefined symbol,undirected
+no input files,error unable to normalize alternate object path,undirected
+not a directory,ldppc cannot find lflxembedded,undirected
+response text,attributeerror type object has no attribute,undirected
+response text,text field cannot be set it is not on the appropriate screen or unknown field cannot be set it is not on the appropriate screen or unknown,undirected
+rm cannot remove no such file or directory,invalid suffix on integer constant,undirected
+sed can t read sed no such file or directory,ldppc bfd assertion fail,undirected
+text field cannot be set it is not on the appropriate screen or unknown field cannot be set it is not on the appropriate screen or unknown,jiraerror jiraerror http url,undirected
+text field cannot be set it is not on the appropriate screen or unknown field cannot be set it is not on the appropriate screen or unknown,response text,undirected
+typeerror a bytes like object is required not,cp cannot copy cyclic symbolic link,undirected
+typeerror a bytes like object is required not,error unable to normalize alternate object path,undirected
+valueerror jira not promoted because built in expecting,attributeerror type object has no attribute,undirected

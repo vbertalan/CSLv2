@@ -1,0 +1,178 @@
+source,target,relation
+attributeerror type object has no attribute,cp cannot copy cyclic symbolic link,directed
+attributeerror type object has no attribute,find docker permission denied,directed
+attributeerror type object has no attribute,valueerror jira not promoted because built in expecting,directed
+awk symbol lookup error awk undefined symbol,jq error at stdin null null has no keys,directed
+cannot open directory dhcp,cannot open directory grub d,directed
+cc no such file or directory,ccpentium linker input file unused because linking not done,directed
+cc no such file or directory,compile failed using,directed
+cc no such file or directory,fail,directed
+ccpentium linker input file unused because linking not done,error gnu compilers before are not supported anymore,directed
+ccpentium linker input file unused because linking not done,error unsupported toolchain,directed
+ccppc linker input file unused because linking not done,cccp invalid option,directed
+ccppc linker input file unused because linking not done,ccpentium linker input file unused because linking not done,directed
+compile failed using,cannot open directory grub d,directed
+compile failed using,cc error unrecognized command line option,directed
+compile failed using,typeerror a bytes like object is required not,directed
+cp cannot stat no such file or directory,cannot open directory grub d,directed
+cp cannot stat no such file or directory,cc error unrecognized command line option,directed
+did not find any package,cp cannot stat no such file or directory,directed
+error copera job operators build bat executor subprocess error for bat command,find docker permission denied,directed
+error declaration of c function conflicts with,compile failed using,directed
+error declaration of c function conflicts with,copy from artifactory failed going to wrap and retry,directed
+error declaration of c function conflicts with,cp r not specified omitting directory,directed
+error each undeclared identifier is reported only once,cp cannot stat no such file or directory,directed
+error each undeclared identifier is reported only once,error syntax error before,directed
+error each undeclared identifier is reported only once,error syntax error before token,directed
+error each undeclared identifier is reported only once,error undeclared first use in this function,directed
+error enumerator value for not integer constant,cannot open directory grub d,directed
+error enumerator value for not integer constant,cc error unrecognized command line option,directed
+error for each function it appears in,error each undeclared identifier is reported only once,directed
+error for each function it appears in,error syntax error before,directed
+error for each function it appears in,error syntax error before token,directed
+error for each function it appears in,error undeclared first use in this function,directed
+error gnu compilers before are not supported anymore,ccppc linker input file unused because linking not done,directed
+error gnu compilers before are not supported anymore,did not find any package,directed
+error gnu compilers before are not supported anymore,error unsupported toolchain,directed
+error no match for in,cat no such file or directory,directed
+error no match for in,compile failed using,directed
+error no match for in,sed can t read temp no such file or directory,directed
+error previous declaration here,cp r not specified omitting directory,directed
+error previous declaration here,error declaration of c function conflicts with,directed
+error previous declaration here,error unsupported toolchain,directed
+error previous declaration here,fail,directed
+error previous declaration of was here,cannot open directory dhcp,directed
+error previous declaration of was here,cannot open directory grub d,directed
+error previous declaration of was here,error conflicting types for,directed
+error previous definition of was here,cannot open directory grub d,directed
+error previous definition of was here,error conflicting types for,directed
+error previous definition of was here,error previous declaration of was here,directed
+error previous definition of was here,error undeclared first use in this function,directed
+error previous implicit declaration of was here,error conflicting types for,directed
+error previous implicit declaration of was here,error declaration of c function conflicts with,directed
+error previous implicit declaration of was here,error gnu compilers before are not supported anymore,directed
+error previous implicit declaration of was here,error unsupported toolchain,directed
+error python version is not available,cc error unrecognized command line option,directed
+error requested alignment is not a constant,cc error unrecognized command line option,directed
+error requested alignment is not a constant,error conflicting types for,directed
+error requested alignment is not a constant,error each undeclared identifier is reported only once,directed
+error requested alignment is not a constant,error syntax error before,directed
+error requested alignment is not a constant,error undeclared first use in this function,directed
+error subprocess error for bat command,cp cannot stat no such file or directory,directed
+error syntax error before,cp cannot stat no such file or directory,directed
+error syntax error before,error previous declaration of was here,directed
+error syntax error before token,cp cannot stat no such file or directory,directed
+error syntax error before token,error requested alignment is not a constant,directed
+error syntax error before token,error syntax error before,directed
+error syntax error before token,error undeclared first use in this function,directed
+error undeclared first use in this function,error syntax error before,directed
+error unsupported toolchain,cccp invalid option,directed
+error unsupported toolchain,error declaration of c function conflicts with,directed
+error was not declared in this scope,cat no such file or directory,directed
+error was not declared in this scope,error no match for in,directed
+error was not declared in this scope,invalid suffix on integer constant,directed
+fail,ccppc linker input file unused because linking not done,directed
+fail,compile failed using,directed
+fail,cp cannot stat no such file or directory,directed
+fail,did not find any package,directed
+fatal bad object head,no input files,directed
+find docker permission denied,cp cannot copy cyclic symbolic link,directed
+find no such file or directory,cannot open directory dhcp,directed
+find no such file or directory,cannot open directory grub d,directed
+find no such file or directory,fail,directed
+find no such file or directory,mkdir cannot create directory file exists,directed
+find no such file or directory,no such file,directed
+find permission denied,attributeerror type object has no attribute,directed
+find permission denied,cp cannot stat no such file or directory,directed
+find permission denied,find docker permission denied,directed
+invalid suffix on integer constant,cat no such file or directory,directed
+invalid suffix on integer constant,compile failed using,directed
+invalid suffix on integer constant,error enumerator value for not integer constant,directed
+invalid suffix on integer constant,error previous declaration of was here,directed
+jq error at stdin null null has no keys,cp cannot copy cyclic symbolic link,directed
+jq error at stdin null null has no keys,cp r not specified omitting directory,directed
+jq error at stdin null null has no keys,did not find any package,directed
+jq error at stdin null null has no keys,error syntax error before,directed
+ldppc cannot find lvxsnmp,cccp invalid option,directed
+ldppc cannot find lvxsnmp,copy from artifactory failed going to wrap and retry,directed
+ldppc cannot find lvxsnmp,did not find any package,directed
+ldppc cannot find lvxsnmp,error gnu compilers before are not supported anymore,directed
+ldppc cannot find lvxsnmp,fail,directed
+ldppc cannot find lvxsnmp,jq error at stdin null null has no keys,directed
+libexpat a file format not recognized,sed can t read temp no such file or directory,directed
+line cleartool command not found,error python version is not available,directed
+line toolsetup command not found,cannot open directory dhcp,directed
+line toolsetup command not found,cannot open directory grub d,directed
+line toolsetup command not found,error python version is not available,directed
+line toolsetup command not found,error undeclared first use in this function,directed
+line toolsetup command not found,fail,directed
+line toolsetup command not found,find no such file or directory,directed
+line toolsetup command not found,no such file,directed
+make cleartool command not found,ldppc cannot find lvxsnmp,directed
+make cleartool command not found,no such file,directed
+mkdir cannot create directory file exists,did not find any package,directed
+mkdir cannot create directory file exists,jq error at stdin null null has no keys,directed
+mv cannot stat no such file or directory,sed can t read temp no such file or directory,directed
+mv cannot stat no such file or directory,typeerror a bytes like object is required not,directed
+no such file,copy from artifactory failed going to wrap and retry,directed
+no such file,cp cannot stat no such file or directory,directed
+no such file,did not find any package,directed
+no such file,error unsupported toolchain,directed
+no such file,invalid suffix on integer constant,directed
+no such file,ldppc cannot find lvxsnmp,directed
+no such file or directory,cc error unrecognized command line option,directed
+no such file or directory,did not find any package,directed
+no such file or directory,error enumerator value for not integer constant,directed
+no such file or directory,error gnu compilers before are not supported anymore,directed
+no such file or directory,error python version is not available,directed
+no such file or directory,error syntax error before,directed
+no such file or directory,no input files,directed
+rm cannot remove no such file or directory,cat no such file or directory,directed
+rm cannot remove no such file or directory,error no match for in,directed
+rm cannot remove no such file or directory,invalid suffix on integer constant,directed
+sed can t read no such file or directory,ldppc cannot find lvxsnmp,directed
+sed can t read temp no such file or directory,cat no such file or directory,directed
+sed can t read temp no such file or directory,cccp invalid option,directed
+sed can t read temp no such file or directory,cp r not specified omitting directory,directed
+sed can t read temp no such file or directory,error declaration of c function conflicts with,directed
+sed can t read temp no such file or directory,error gnu compilers before are not supported anymore,directed
+sed can t read temp no such file or directory,no such file,directed
+subprocess calledprocesserror command returned non zero exit status,attributeerror type object has no attribute,directed
+symbol lookup error undefined symbol,did not find any package,directed
+tput no value for term and no t specified,cc error unrecognized command line option,directed
+tput no value for term and no t specified,cccp invalid option,directed
+tput no value for term and no t specified,cp r not specified omitting directory,directed
+tput no value for term and no t specified,error requested alignment is not a constant,directed
+tput no value for term and no t specified,error undeclared first use in this function,directed
+tput no value for term and no t specified,find no such file or directory,directed
+tput no value for term and no t specified,ldppc cannot find lvxsnmp,directed
+tput no value for term and no t specified,no such file,directed
+tput no value for term and no t specified,sed can t read temp no such file or directory,directed
+tput no value for term and no t specified,typeerror a bytes like object is required not,directed
+typeerror a bytes like object is required not,cp cannot copy cyclic symbolic link,directed
+typeerror a bytes like object is required not,cp cannot stat no such file or directory,directed
+typeerror a bytes like object is required not,error syntax error before token,directed
+typeerror a bytes like object is required not,find no such file or directory,directed
+typeerror a bytes like object is required not,no input files,directed
+typeerror a bytes like object is required not,no such file,directed
+valueerror jira not promoted because built in expecting,find docker permission denied,directed
+awk symbol lookup error awk undefined symbol,line cleartool command not found,undirected
+awk symbol lookup error awk undefined symbol,symbol lookup error undefined symbol,undirected
+error copera job operators build bat executor subprocess error for bat command,error subprocess error for bat command,undirected
+error job type name had an exception,subprocess calledprocesserror command returned non zero exit status,undirected
+error subprocess error for bat command,error copera job operators build bat executor subprocess error for bat command,undirected
+error subprocess error for bat command,find permission denied,undirected
+error unable to normalize alternate object path,fatal bad object head,undirected
+fatal bad object head,error unable to normalize alternate object path,undirected
+find permission denied,error subprocess error for bat command,undirected
+libexpat a file format not recognized,mv cannot stat no such file or directory,undirected
+line cleartool command not found,awk symbol lookup error awk undefined symbol,undirected
+line cleartool command not found,symbol lookup error undefined symbol,undirected
+make cleartool command not found,sed can t read no such file or directory,undirected
+mv cannot stat no such file or directory,libexpat a file format not recognized,undirected
+mv cannot stat no such file or directory,tput no value for term and no t specified,undirected
+sed can t read no such file or directory,make cleartool command not found,undirected
+subprocess calledprocesserror command returned non zero exit status,error job type name had an exception,undirected
+symbol lookup error undefined symbol,awk symbol lookup error awk undefined symbol,undirected
+symbol lookup error undefined symbol,line cleartool command not found,undirected
+tput no value for term and no t specified,mv cannot stat no such file or directory,undirected

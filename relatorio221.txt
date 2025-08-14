@@ -1,0 +1,7 @@
+=== Relatório de Causalidade ===
+Total de variáveis analisadas: 63
+Arestas direcionadas: 157
+Arestas bidirecionais: 0
+Arestas não-direcionadas: 20
+
+CSV salvo em: relacoes_causais221.csv

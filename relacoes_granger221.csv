@@ -1,0 +1,415 @@
+source,target,coefficient
+sed can t read temp no such file or directory,awk symbol lookup error awk undefined symbol,0.0009659720099585058
+tput no value for term and no t specified,awk symbol lookup error awk undefined symbol,-0.00029318182688635474
+cannot open directory grub d,cannot open directory dhcp,0.4509677223168853
+cp cannot stat no such file or directory,cannot open directory dhcp,-0.0070924840279256605
+error conflicting types for,cannot open directory dhcp,0.0030885403059254485
+error previous declaration of was here,cannot open directory dhcp,0.06264192829632254
+fail,cannot open directory dhcp,0.023481015315745462
+find no such file or directory,cannot open directory dhcp,0.012974919791419567
+line toolsetup command not found,cannot open directory dhcp,0.16533001099802547
+no such file,cannot open directory dhcp,-0.0004347512098914093
+tput no value for term and no t specified,cannot open directory dhcp,-0.0014531061933178444
+cannot open directory dhcp,cannot open directory grub d,0.17625669930303853
+cp cannot stat no such file or directory,cannot open directory grub d,0.006094282056778285
+did not find any package,cannot open directory grub d,0.006790826512875324
+error conflicting types for,cannot open directory grub d,-0.02547261147871918
+error each undeclared identifier is reported only once,cannot open directory grub d,-0.0001741297942657547
+error previous declaration of was here,cannot open directory grub d,0.060047804153777314
+error previous definition of was here,cannot open directory grub d,-0.006126181192449941
+error syntax error before,cannot open directory grub d,-0.00043921109209720677
+error undeclared first use in this function,cannot open directory grub d,-0.0028913963931974105
+fail,cannot open directory grub d,0.000627345058217732
+find no such file or directory,cannot open directory grub d,-0.006632314858587917
+line toolsetup command not found,cannot open directory grub d,0.03040806178484097
+no such file or directory,cannot open directory grub d,-2.774798996051689e-05
+tput no value for term and no t specified,cannot open directory grub d,0.00021960264682597944
+error no match for in,cat no such file or directory,0.006877353378090365
+mv cannot stat no such file or directory,cat no such file or directory,0.0007751089344215549
+rm cannot remove no such file or directory,cat no such file or directory,0.09431523660338104
+tput no value for term and no t specified,cat no such file or directory,-0.00019500032538822854
+cp cannot stat no such file or directory,cc error unrecognized command line option,-0.00038020198433088117
+error python version is not available,cc error unrecognized command line option,0.2449456543887557
+fail,cc error unrecognized command line option,0.0005492203394914084
+find no such file or directory,cc error unrecognized command line option,0.004661108427485053
+line toolsetup command not found,cc error unrecognized command line option,0.01169058008520237
+no such file or directory,cc error unrecognized command line option,-0.0062766422058522535
+tput no value for term and no t specified,cc error unrecognized command line option,-0.0007444142475280088
+ccpentium linker input file unused because linking not done,cc no such file or directory,0.01816764617301671
+cp cannot stat no such file or directory,cc no such file or directory,-0.0005722345409750426
+no such file,cc no such file or directory,0.007755491890730377
+sed can t read temp no such file or directory,cccp invalid option,0.036151268870060996
+tput no value for term and no t specified,cccp invalid option,0.004782144631052355
+cc no such file or directory,ccpentium linker input file unused because linking not done,0.22042153266564019
+cp cannot stat no such file or directory,ccpentium linker input file unused because linking not done,-0.00012197699007132508
+error gnu compilers before are not supported anymore,ccpentium linker input file unused because linking not done,0.0015558157390760878
+error unsupported toolchain,ccpentium linker input file unused because linking not done,0.017508663822750663
+no such file,ccpentium linker input file unused because linking not done,0.00944484403995465
+tput no value for term and no t specified,ccpentium linker input file unused because linking not done,0.000795527951323462
+cccp invalid option,ccppc linker input file unused because linking not done,0.01890968981560292
+cp cannot stat no such file or directory,ccppc linker input file unused because linking not done,8.833012165909482e-05
+tput no value for term and no t specified,ccppc linker input file unused because linking not done,-5.8409128968443365e-06
+cc error unrecognized command line option,compile failed using,0.00024866046566036774
+cp cannot stat no such file or directory,compile failed using,-0.003664652862418157
+error declaration of c function conflicts with,compile failed using,0.023924949456937874
+error no match for in,compile failed using,0.009085517887918606
+fail,compile failed using,0.03558805388266493
+find no such file or directory,compile failed using,-0.0014228426644893146
+tput no value for term and no t specified,compile failed using,-0.003249506939068355
+cannot open directory dhcp,copy from artifactory failed going to wrap and retry,-0.00040966916437453225
+cannot open directory grub d,copy from artifactory failed going to wrap and retry,-0.00011577740757970397
+cat no such file or directory,copy from artifactory failed going to wrap and retry,-0.0002902173510491224
+cc error unrecognized command line option,copy from artifactory failed going to wrap and retry,-0.00036858550603240944
+compile failed using,copy from artifactory failed going to wrap and retry,-0.0004882871850588416
+cp cannot stat no such file or directory,copy from artifactory failed going to wrap and retry,-4.584023598666549e-05
+did not find any package,copy from artifactory failed going to wrap and retry,-0.00027514090305462484
+error conflicting types for,copy from artifactory failed going to wrap and retry,-0.00027014240706054577
+error declaration of c function conflicts with,copy from artifactory failed going to wrap and retry,-0.0002805833073295686
+error each undeclared identifier is reported only once,copy from artifactory failed going to wrap and retry,-0.0002405308918915688
+error for each function it appears in,copy from artifactory failed going to wrap and retry,-0.00021372724738954747
+error gnu compilers before are not supported anymore,copy from artifactory failed going to wrap and retry,-0.00016578787734172176
+error previous declaration here,copy from artifactory failed going to wrap and retry,-0.00029252087717350804
+error requested alignment is not a constant,copy from artifactory failed going to wrap and retry,-0.00021071485982216434
+error syntax error before,copy from artifactory failed going to wrap and retry,-0.00021013647810967916
+error syntax error before token,copy from artifactory failed going to wrap and retry,-0.0002307607256990366
+error undeclared first use in this function,copy from artifactory failed going to wrap and retry,-0.00025382859887877003
+error unsupported toolchain,copy from artifactory failed going to wrap and retry,-3.807470700011321e-05
+fail,copy from artifactory failed going to wrap and retry,-0.0003935535987347313
+find no such file or directory,copy from artifactory failed going to wrap and retry,-0.00044061798499878867
+invalid suffix on integer constant,copy from artifactory failed going to wrap and retry,-0.00012851110045611675
+jq error at stdin null null has no keys,copy from artifactory failed going to wrap and retry,-0.0004569043103032507
+make cleartool command not found,copy from artifactory failed going to wrap and retry,-5.7102868579295e-05
+mv cannot stat no such file or directory,copy from artifactory failed going to wrap and retry,-0.00035393361341991086
+no such file,copy from artifactory failed going to wrap and retry,-0.000475710068061517
+no such file or directory,copy from artifactory failed going to wrap and retry,-0.0003367691467530829
+sed can t read temp no such file or directory,copy from artifactory failed going to wrap and retry,-0.0005763785269275202
+tput no value for term and no t specified,copy from artifactory failed going to wrap and retry,-0.00046960328922529294
+cp cannot stat no such file or directory,cp cannot copy cyclic symbolic link,-3.357756486286905e-05
+did not find any package,cp cannot copy cyclic symbolic link,0.003971286015808528
+typeerror a bytes like object is required not,cp cannot copy cyclic symbolic link,0.010064994999555706
+cannot open directory grub d,cp cannot stat no such file or directory,0.2863335404836404
+cccp invalid option,cp cannot stat no such file or directory,-0.02367734778409168
+ccppc linker input file unused because linking not done,cp cannot stat no such file or directory,0.001683299838723538
+compile failed using,cp cannot stat no such file or directory,-0.007439487468736396
+copy from artifactory failed going to wrap and retry,cp cannot stat no such file or directory,0.014720451015402519
+did not find any package,cp cannot stat no such file or directory,0.24611763858580374
+error declaration of c function conflicts with,cp cannot stat no such file or directory,-0.03166637845688648
+error each undeclared identifier is reported only once,cp cannot stat no such file or directory,-0.019781883215939138
+error gnu compilers before are not supported anymore,cp cannot stat no such file or directory,-0.008171811578437113
+error previous declaration here,cp cannot stat no such file or directory,-0.04563745187773926
+error syntax error before,cp cannot stat no such file or directory,-0.0023305563724371164
+error syntax error before token,cp cannot stat no such file or directory,-0.011225263173769776
+error undeclared first use in this function,cp cannot stat no such file or directory,-0.012445404275101803
+fail,cp cannot stat no such file or directory,-0.014784813704462078
+invalid suffix on integer constant,cp cannot stat no such file or directory,-0.01934892002440322
+jq error at stdin null null has no keys,cp cannot stat no such file or directory,0.3356194015158914
+line toolsetup command not found,cp cannot stat no such file or directory,-0.03382181907375748
+make cleartool command not found,cp cannot stat no such file or directory,0.3519216463586175
+mv cannot stat no such file or directory,cp cannot stat no such file or directory,-0.011868942915946588
+no such file,cp cannot stat no such file or directory,0.36735423679103346
+no such file or directory,cp cannot stat no such file or directory,0.025779712140908146
+rm cannot remove no such file or directory,cp cannot stat no such file or directory,0.03465709156460744
+sed can t read no such file or directory,cp cannot stat no such file or directory,0.3594363601026702
+sed can t read temp no such file or directory,cp cannot stat no such file or directory,0.013108906791292025
+tput no value for term and no t specified,cp cannot stat no such file or directory,0.01105647075623343
+typeerror a bytes like object is required not,cp cannot stat no such file or directory,0.6613251194906027
+cp cannot stat no such file or directory,cp r not specified omitting directory,-0.00037810357557757716
+did not find any package,cp r not specified omitting directory,0.015618556423507159
+fail,cp r not specified omitting directory,7.109282377993208e-06
+find no such file or directory,cp r not specified omitting directory,-4.605022457804819e-06
+jq error at stdin null null has no keys,cp r not specified omitting directory,0.0008782705426543507
+mkdir cannot create directory file exists,cp r not specified omitting directory,-0.002673539236468449
+mv cannot stat no such file or directory,cp r not specified omitting directory,-0.00019131093616803652
+sed can t read temp no such file or directory,cp r not specified omitting directory,-0.00015521271349130941
+tput no value for term and no t specified,cp r not specified omitting directory,0.0009621643896134599
+jq error at stdin null null has no keys,did not find any package,0.1109321096516445
+tput no value for term and no t specified,did not find any package,-0.00333271748702212
+cannot open directory dhcp,error conflicting types for,-0.004462098061835373
+cannot open directory grub d,error conflicting types for,-0.02260762619827917
+error each undeclared identifier is reported only once,error conflicting types for,-0.001339903210478978
+error previous declaration here,error conflicting types for,0.004618534731954955
+error previous declaration of was here,error conflicting types for,0.08302849598695775
+error previous definition of was here,error conflicting types for,0.7626225128712448
+error previous implicit declaration of was here,error conflicting types for,0.41788089704771536
+error requested alignment is not a constant,error conflicting types for,0.0034196407744294427
+error syntax error before,error conflicting types for,0.0013877140380897843
+error undeclared first use in this function,error conflicting types for,0.03181564140404743
+find no such file or directory,error conflicting types for,-0.0033555913248214746
+cp cannot stat no such file or directory,error copera job operators build bat executor subprocess error for bat command,-3.9828136325518374e-06
+error job type name had an exception,error copera job operators build bat executor subprocess error for bat command,0.016492721409300606
+error subprocess error for bat command,error copera job operators build bat executor subprocess error for bat command,0.26494069857357994
+subprocess calledprocesserror command returned non zero exit status,error copera job operators build bat executor subprocess error for bat command,-0.06483429850177291
+tput no value for term and no t specified,error copera job operators build bat executor subprocess error for bat command,-7.0650466247997785e-06
+cat no such file or directory,error declaration of c function conflicts with,-0.00027606640585551374
+compile failed using,error declaration of c function conflicts with,0.024749516406923393
+cp cannot stat no such file or directory,error declaration of c function conflicts with,0.0013333123110380824
+error gnu compilers before are not supported anymore,error declaration of c function conflicts with,0.0054059202393240465
+error previous declaration here,error declaration of c function conflicts with,0.06363836251306727
+error unsupported toolchain,error declaration of c function conflicts with,0.018044331605793593
+fail,error declaration of c function conflicts with,0.0043385385603716495
+invalid suffix on integer constant,error declaration of c function conflicts with,-0.021236539696063636
+no such file,error declaration of c function conflicts with,-0.004116079985401822
+tput no value for term and no t specified,error declaration of c function conflicts with,0.0019028747607567056
+error for each function it appears in,error each undeclared identifier is reported only once,0.0028499922874520092
+error undeclared first use in this function,error each undeclared identifier is reported only once,0.012014730588427633
+line toolsetup command not found,error each undeclared identifier is reported only once,0.010402493183218085
+tput no value for term and no t specified,error each undeclared identifier is reported only once,-0.00026692151669248203
+cannot open directory grub d,error enumerator value for not integer constant,0.03450075539078054
+cp cannot stat no such file or directory,error enumerator value for not integer constant,-0.0005987392444602316
+error undeclared first use in this function,error enumerator value for not integer constant,0.008243954806140066
+error syntax error before,error for each function it appears in,0.030771957120210455
+tput no value for term and no t specified,error for each function it appears in,-1.1494938990935384e-05
+cat no such file or directory,error gnu compilers before are not supported anymore,-0.0016260379423734988
+ccpentium linker input file unused because linking not done,error gnu compilers before are not supported anymore,-0.07914259153658863
+ccppc linker input file unused because linking not done,error gnu compilers before are not supported anymore,0.06950432723619734
+compile failed using,error gnu compilers before are not supported anymore,-0.0018261293993772519
+cp cannot stat no such file or directory,error gnu compilers before are not supported anymore,0.0015161600533166162
+error previous implicit declaration of was here,error gnu compilers before are not supported anymore,0.5367616951556827
+error unsupported toolchain,error gnu compilers before are not supported anymore,0.4315001742882761
+fail,error gnu compilers before are not supported anymore,0.0008742132856342637
+mv cannot stat no such file or directory,error gnu compilers before are not supported anymore,-0.0048336136680986
+no such file,error gnu compilers before are not supported anymore,0.01119343520863744
+sed can t read temp no such file or directory,error gnu compilers before are not supported anymore,0.10711916380216502
+tput no value for term and no t specified,error gnu compilers before are not supported anymore,0.0018692031611585906
+subprocess calledprocesserror command returned non zero exit status,error job type name had an exception,0.8681490343837832
+compile failed using,error no match for in,0.010339921127812318
+cp cannot stat no such file or directory,error no match for in,-0.0003290555575567927
+tput no value for term and no t specified,error no match for in,-0.0003363519842142326
+cat no such file or directory,error previous declaration here,0.00094471977585579
+cc error unrecognized command line option,error previous declaration here,6.63830407455249e-05
+compile failed using,error previous declaration here,-0.005814506870697202
+error conflicting types for,error previous declaration here,0.02276995595504921
+error declaration of c function conflicts with,error previous declaration here,0.16222251993373452
+error gnu compilers before are not supported anymore,error previous declaration here,-0.008396791028742284
+error previous implicit declaration of was here,error previous declaration here,0.005655344373340874
+error undeclared first use in this function,error previous declaration here,9.763163735428615e-06
+error unsupported toolchain,error previous declaration here,-0.01109258760841502
+fail,error previous declaration here,0.009845815915524548
+invalid suffix on integer constant,error previous declaration here,0.01025964043798181
+mv cannot stat no such file or directory,error previous declaration here,-0.002488349322031819
+no such file,error previous declaration here,0.011565906308377767
+sed can t read temp no such file or directory,error previous declaration here,-0.0031938647009514837
+tput no value for term and no t specified,error previous declaration here,-0.001012117757928421
+cannot open directory dhcp,error previous declaration of was here,0.04169260935488953
+cannot open directory grub d,error previous declaration of was here,0.03694047535045192
+compile failed using,error previous declaration of was here,0.0007280594864212279
+cp cannot stat no such file or directory,error previous declaration of was here,-0.0002805210404774461
+error conflicting types for,error previous declaration of was here,0.10565805860902926
+error each undeclared identifier is reported only once,error previous declaration of was here,-5.5292712955631224e-05
+error for each function it appears in,error previous declaration of was here,0.005634113401394039
+error previous definition of was here,error previous declaration of was here,-0.04695063765028282
+error previous implicit declaration of was here,error previous declaration of was here,-0.008466159400537377
+error requested alignment is not a constant,error previous declaration of was here,-0.0018890877404323936
+error syntax error before,error previous declaration of was here,0.00012256318621195226
+error undeclared first use in this function,error previous declaration of was here,0.0027562767948084003
+find no such file or directory,error previous declaration of was here,0.0024182184414187563
+invalid suffix on integer constant,error previous declaration of was here,0.01726556515918274
+line toolsetup command not found,error previous declaration of was here,-0.0028075831501532702
+mkdir cannot create directory file exists,error previous declaration of was here,-0.0016547984614584078
+no such file or directory,error previous declaration of was here,-0.0033427843231045194
+cannot open directory dhcp,error previous definition of was here,0.0038916544477485666
+compile failed using,error previous definition of was here,0.005716613864931186
+error conflicting types for,error previous definition of was here,0.29085591950982215
+error each undeclared identifier is reported only once,error previous definition of was here,-0.019866269176477828
+error for each function it appears in,error previous definition of was here,-0.007139971762090303
+error gnu compilers before are not supported anymore,error previous definition of was here,0.002134109205332294
+error previous declaration of was here,error previous definition of was here,0.0065678331710009655
+error previous implicit declaration of was here,error previous definition of was here,-0.008584266665575109
+error requested alignment is not a constant,error previous definition of was here,-0.013124561033069077
+error syntax error before,error previous definition of was here,-0.006714798100055179
+error syntax error before token,error previous definition of was here,-0.010340403950531494
+error undeclared first use in this function,error previous definition of was here,-0.056218641455813304
+find no such file or directory,error previous definition of was here,-0.0004700024628292541
+jq error at stdin null null has no keys,error previous definition of was here,0.003571973039799301
+mkdir cannot create directory file exists,error previous definition of was here,0.0013134613457843462
+no such file or directory,error previous definition of was here,-0.0022542120358739893
+cc error unrecognized command line option,error python version is not available,0.012644966003668203
+line cleartool command not found,error python version is not available,0.039890101602246555
+no such file or directory,error python version is not available,0.009379224939678346
+error syntax error before,error requested alignment is not a constant,-0.008858514566191326
+error syntax error before token,error requested alignment is not a constant,0.04403599260865548
+error undeclared first use in this function,error requested alignment is not a constant,0.03941501061120408
+find no such file or directory,error requested alignment is not a constant,-0.005984898218865867
+find permission denied,error subprocess error for bat command,0.016609224276711423
+error conflicting types for,error syntax error before,0.0004474997920903382
+error for each function it appears in,error syntax error before,0.05973582026822635
+error syntax error before token,error syntax error before,0.0726000053213763
+tput no value for term and no t specified,error syntax error before,-3.833767736436749e-05
+cannot open directory dhcp,error syntax error before token,0.0013267781365788075
+cp cannot stat no such file or directory,error syntax error before token,-0.00020505379094389219
+error each undeclared identifier is reported only once,error syntax error before token,-0.02895481773164331
+error for each function it appears in,error syntax error before token,-0.09913013205401429
+error requested alignment is not a constant,error syntax error before token,0.044261306641502775
+error syntax error before,error syntax error before token,0.19363037489977272
+find no such file or directory,error syntax error before token,6.935329134976362e-05
+no such file or directory,error syntax error before token,0.018008843620445913
+fatal bad object head,error unable to normalize alternate object path,0.29044300019727143
+jq error at stdin null null has no keys,error unable to normalize alternate object path,0.004884522312903801
+no such file or directory,error unable to normalize alternate object path,-0.006172326006597344
+error conflicting types for,error undeclared first use in this function,0.042639046082489876
+error each undeclared identifier is reported only once,error undeclared first use in this function,0.02879795900316874
+error requested alignment is not a constant,error undeclared first use in this function,0.018605824119707823
+tput no value for term and no t specified,error undeclared first use in this function,-0.00040017037316891313
+cat no such file or directory,error unsupported toolchain,0.005992497006102536
+cccp invalid option,error unsupported toolchain,-0.0016514258182217703
+ccpentium linker input file unused because linking not done,error unsupported toolchain,0.06252778158414216
+error declaration of c function conflicts with,error unsupported toolchain,0.00584065140166147
+error gnu compilers before are not supported anymore,error unsupported toolchain,0.3669311553039705
+fail,error unsupported toolchain,0.0164685898638582
+mv cannot stat no such file or directory,error unsupported toolchain,-0.008890615475943902
+no such file,error unsupported toolchain,0.07255972885884897
+tput no value for term and no t specified,error unsupported toolchain,-0.0033117245981650017
+cp cannot stat no such file or directory,error was not declared in this scope,-7.66364909543095e-05
+cp cannot stat no such file or directory,fail,-0.00027708279506724614
+cp cannot stat no such file or directory,find docker permission denied,-3.615234043610187e-05
+did not find any package,find docker permission denied,0.0013780614732916913
+cannot open directory dhcp,find no such file or directory,0.06722472636345095
+cc error unrecognized command line option,find no such file or directory,0.011639424026309868
+compile failed using,find no such file or directory,-0.0012618153604908205
+cp cannot stat no such file or directory,find no such file or directory,8.004533825799515e-06
+did not find any package,find no such file or directory,0.006533896823289774
+error previous declaration of was here,find no such file or directory,-0.01831347578827952
+error requested alignment is not a constant,find no such file or directory,0.006354100901700282
+jq error at stdin null null has no keys,find no such file or directory,0.014509265345580382
+line toolsetup command not found,find no such file or directory,0.32311583776342123
+mkdir cannot create directory file exists,find no such file or directory,0.38519141910748766
+no such file or directory,find no such file or directory,0.003149219345450195
+tput no value for term and no t specified,find no such file or directory,-0.0013117889813156695
+error job type name had an exception,find permission denied,0.04168871246829937
+cp cannot stat no such file or directory,invalid suffix on integer constant,-0.0006042249371615133
+tput no value for term and no t specified,invalid suffix on integer constant,-0.0008204816695216909
+awk symbol lookup error awk undefined symbol,jq error at stdin null null has no keys,-0.007545910809759421
+cp cannot copy cyclic symbolic link,jq error at stdin null null has no keys,0.03872194787858771
+cp cannot stat no such file or directory,jq error at stdin null null has no keys,-0.002493185744538313
+cp r not specified omitting directory,jq error at stdin null null has no keys,0.022843616611057986
+did not find any package,jq error at stdin null null has no keys,0.15753516613499624
+error previous definition of was here,jq error at stdin null null has no keys,0.02147865468531642
+error unable to normalize alternate object path,jq error at stdin null null has no keys,0.19044747483545665
+find no such file or directory,jq error at stdin null null has no keys,-0.001183438768235146
+line toolsetup command not found,jq error at stdin null null has no keys,0.004258109725237123
+mkdir cannot create directory file exists,jq error at stdin null null has no keys,0.4413881326636036
+mv cannot stat no such file or directory,jq error at stdin null null has no keys,-0.0022672647500669623
+no such file,jq error at stdin null null has no keys,-0.002867171136659236
+rm cannot remove no such file or directory,jq error at stdin null null has no keys,0.007473392541940071
+tput no value for term and no t specified,jq error at stdin null null has no keys,0.001986390166279099
+tput no value for term and no t specified,ldppc cannot find lvxsnmp,0.003596050395949724
+symbol lookup error undefined symbol,line cleartool command not found,0.003029991576419834
+cannot open directory dhcp,line toolsetup command not found,0.24193429133498087
+cc error unrecognized command line option,line toolsetup command not found,0.004958152818855393
+cp cannot stat no such file or directory,line toolsetup command not found,-0.005303865412697509
+find no such file or directory,line toolsetup command not found,0.02995208296823152
+no such file or directory,line toolsetup command not found,0.0004036532399790145
+tput no value for term and no t specified,line toolsetup command not found,-0.0010559178728407042
+cannot open directory grub d,make cleartool command not found,-0.0018392781351414024
+cat no such file or directory,make cleartool command not found,-0.0010559921529986107
+cc error unrecognized command line option,make cleartool command not found,-0.0008368997906401675
+compile failed using,make cleartool command not found,-0.0013039579412836156
+cp cannot stat no such file or directory,make cleartool command not found,-0.002955471231761776
+did not find any package,make cleartool command not found,-0.0017205374627836671
+error conflicting types for,make cleartool command not found,-6.558437926270116e-05
+error declaration of c function conflicts with,make cleartool command not found,-0.0015121442837123546
+error each undeclared identifier is reported only once,make cleartool command not found,-0.00100437092493076
+error for each function it appears in,make cleartool command not found,-0.0008987255469547505
+error gnu compilers before are not supported anymore,make cleartool command not found,-0.0005530171209292385
+error previous declaration here,make cleartool command not found,-0.00131992656190694
+error requested alignment is not a constant,make cleartool command not found,-0.0010243110888488937
+error syntax error before,make cleartool command not found,-0.001074171687307081
+error syntax error before token,make cleartool command not found,-0.0009325374246430668
+error undeclared first use in this function,make cleartool command not found,-0.001041056654819426
+fail,make cleartool command not found,-0.0015325291620240952
+find no such file or directory,make cleartool command not found,-0.0014781203915888359
+jq error at stdin null null has no keys,make cleartool command not found,-0.001577369916147029
+mv cannot stat no such file or directory,make cleartool command not found,-0.0022553690925500272
+no such file,make cleartool command not found,-0.0031733674377208173
+no such file or directory,make cleartool command not found,-0.0012355615011785262
+sed can t read no such file or directory,make cleartool command not found,-0.16103690693498687
+sed can t read temp no such file or directory,make cleartool command not found,-0.001587873982440462
+tput no value for term and no t specified,make cleartool command not found,-0.0033032549903765974
+typeerror a bytes like object is required not,make cleartool command not found,-0.0021079725028942593
+cccp invalid option,mv cannot stat no such file or directory,0.03783450008528435
+compile failed using,mv cannot stat no such file or directory,-0.01153017649774123
+cp cannot stat no such file or directory,mv cannot stat no such file or directory,0.0064945871669682695
+error unsupported toolchain,mv cannot stat no such file or directory,-0.07790451926285188
+fail,mv cannot stat no such file or directory,-0.011652844105621842
+jq error at stdin null null has no keys,mv cannot stat no such file or directory,0.004921430509895162
+libexpat a file format not recognized,mv cannot stat no such file or directory,0.6019120327307964
+no such file,mv cannot stat no such file or directory,0.038411678318859985
+sed can t read temp no such file or directory,mv cannot stat no such file or directory,0.37016105662179255
+tput no value for term and no t specified,mv cannot stat no such file or directory,0.06701065168620085
+cp cannot stat no such file or directory,no input files,-0.0004894288637673621
+no such file or directory,no input files,0.00904168672578774
+typeerror a bytes like object is required not,no input files,0.006514167747121122
+cc no such file or directory,no such file,0.018564069547412635
+ccpentium linker input file unused because linking not done,no such file,0.0121845950640458
+cp cannot stat no such file or directory,no such file,0.012545145460297561
+error declaration of c function conflicts with,no such file,-0.0010906499900277956
+error gnu compilers before are not supported anymore,no such file,0.017798423419098788
+error no match for in,no such file,0.0032234159291980565
+error previous declaration here,no such file,0.04499767582558027
+error unsupported toolchain,no such file,0.2464362331274108
+invalid suffix on integer constant,no such file,0.01848661884856457
+mv cannot stat no such file or directory,no such file,-0.0091166846895171
+no such file or directory,no such file,-0.005640336709713022
+sed can t read temp no such file or directory,no such file,0.12311933268044536
+tput no value for term and no t specified,no such file,-0.009182039452736133
+cc error unrecognized command line option,no such file or directory,-0.06560592058699716
+error python version is not available,no such file or directory,0.20771781944653697
+error syntax error before,no such file or directory,-0.004984372158686536
+error undeclared first use in this function,no such file or directory,0.0008132766916220002
+line toolsetup command not found,no such file or directory,0.008201859572932669
+no input files,no such file or directory,0.12784196540702505
+no such file,no such file or directory,0.004165010110677497
+invalid suffix on integer constant,rm cannot remove no such file or directory,0.019334616477178733
+ldppc cannot find lvxsnmp,sed can t read no such file or directory,0.004697060881214013
+make cleartool command not found,sed can t read no such file or directory,0.08701912044937829
+tput no value for term and no t specified,sed can t read no such file or directory,-0.0005488464044464448
+cannot open directory grub d,sed can t read temp no such file or directory,-0.0013242067594162541
+cccp invalid option,sed can t read temp no such file or directory,0.3886234475219071
+ccppc linker input file unused because linking not done,sed can t read temp no such file or directory,-0.050794126194275896
+cp cannot stat no such file or directory,sed can t read temp no such file or directory,-0.00887997024918352
+did not find any package,sed can t read temp no such file or directory,-0.006981897146621472
+error conflicting types for,sed can t read temp no such file or directory,0.00564990563656783
+error gnu compilers before are not supported anymore,sed can t read temp no such file or directory,0.41978336957143014
+error previous declaration here,sed can t read temp no such file or directory,0.003384270154474192
+error unsupported toolchain,sed can t read temp no such file or directory,0.02865544902988232
+fail,sed can t read temp no such file or directory,0.03000936645533941
+jq error at stdin null null has no keys,sed can t read temp no such file or directory,-0.008457826444325621
+ldppc cannot find lvxsnmp,sed can t read temp no such file or directory,0.19971670723072849
+mv cannot stat no such file or directory,sed can t read temp no such file or directory,0.36294497593788433
+no such file,sed can t read temp no such file or directory,0.1851216505062271
+no such file or directory,sed can t read temp no such file or directory,-0.003504064780064314
+rm cannot remove no such file or directory,sed can t read temp no such file or directory,0.014763991628012103
+tput no value for term and no t specified,sed can t read temp no such file or directory,-0.012749734233980113
+typeerror a bytes like object is required not,sed can t read temp no such file or directory,-0.004344368562283252
+attributeerror type object has no attribute,subprocess calledprocesserror command returned non zero exit status,-0.21256186036171676
+error job type name had an exception,subprocess calledprocesserror command returned non zero exit status,0.13649565199576813
+tput no value for term and no t specified,subprocess calledprocesserror command returned non zero exit status,-1.5020091482291211e-05
+valueerror jira not promoted because built in expecting,subprocess calledprocesserror command returned non zero exit status,-0.0747728167213691
+cp cannot stat no such file or directory,symbol lookup error undefined symbol,-0.00022375495633981463
+find no such file or directory,symbol lookup error undefined symbol,-0.00011061898872449266
+tput no value for term and no t specified,symbol lookup error undefined symbol,-0.0001890764900946178
+cannot open directory grub d,tput no value for term and no t specified,-0.008940515438202734
+cat no such file or directory,tput no value for term and no t specified,0.011191047597817914
+cccp invalid option,tput no value for term and no t specified,0.2982586187273075
+compile failed using,tput no value for term and no t specified,-0.0030552656636985216
+cp cannot stat no such file or directory,tput no value for term and no t specified,-0.00038892802664658064
+did not find any package,tput no value for term and no t specified,0.15026768615233554
+error declaration of c function conflicts with,tput no value for term and no t specified,0.030072889158726558
+error gnu compilers before are not supported anymore,tput no value for term and no t specified,-0.051401626227914526
+error previous declaration here,tput no value for term and no t specified,0.015000203172524752
+find no such file or directory,tput no value for term and no t specified,-0.002572001958273033
+invalid suffix on integer constant,tput no value for term and no t specified,0.005596031574124185
+jq error at stdin null null has no keys,tput no value for term and no t specified,0.12754899611570253
+ldppc cannot find lvxsnmp,tput no value for term and no t specified,0.4522812114823255
+line toolsetup command not found,tput no value for term and no t specified,0.03046321639834446
+mv cannot stat no such file or directory,tput no value for term and no t specified,0.24920966569604558
+no such file,tput no value for term and no t specified,0.006311923471373981
+no such file or directory,tput no value for term and no t specified,0.004039675203837768
+sed can t read temp no such file or directory,tput no value for term and no t specified,0.07817062479343141
+typeerror a bytes like object is required not,tput no value for term and no t specified,-0.01825672276300426
+cp cannot stat no such file or directory,typeerror a bytes like object is required not,0.0003207491002823305
+attributeerror type object has no attribute,valueerror jira not promoted because built in expecting,0.1425970047813507
+cp cannot stat no such file or directory,valueerror jira not promoted because built in expecting,-1.6517321419579335e-05
+error subprocess error for bat command,valueerror jira not promoted because built in expecting,0.20334135607353132
+find docker permission denied,valueerror jira not promoted because built in expecting,0.10890929834571761
+subprocess calledprocesserror command returned non zero exit status,valueerror jira not promoted because built in expecting,-0.04962539040858486

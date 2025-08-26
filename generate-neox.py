@@ -57,3 +57,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+'''
+python generate-neox.py \
+  --model_dir ./neox_sent/final \                                       ## o diretório onde o modelo treinado foi salvo (pode ser Hugging Face ou seu fine-tune).
+  --prompt "Hoje o sistema apresentou um erro crítico de memória" \     ## → o texto inicial usado como prompt.
+  --num_sentences 2 \                                                   ## → vai gerar duas frases (cada uma delimitada por <SENT_END>).
+  --max_new_tokens 100 \                                                ## → no máximo 100 tokens novos gerados.
+  --temperature 0.7 \                                                   ## → controla a aleatoriedade (mais baixo = mais determinístico).
+  --top_p 0.9                                                           ## → usa nucleus sampling para limitar as probabilidades acumuladas.
+'''

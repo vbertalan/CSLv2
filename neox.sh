@@ -54,7 +54,8 @@ export NCCL_IB_DISABLE=1            # desliga IB em single-node
 export NCCL_P2P_DISABLE=0
 export NCCL_DEBUG=WARN
 export TORCH_NCCL_BLOCKING_WAIT=1
-export NCCL_ASYNC_ERROR_HANDLING=1
+unset NCCL_ASYNC_ERROR_HANDLING #  RETIRAR
+export TORCH_NCCL_ASYNC_ERROR_HANDLING=1
 export TORCH_DISTRIBUTED_TIMEOUT=7200
 
 # Evitar fragmentação do CUDA allocator
@@ -83,46 +84,24 @@ echo "Accelerate config em: $ACCEL_YAML"
 echo "SLURM_NTASKS=${SLURM_NTASKS:-unset}"
 
 # ====== HÍPERPARÂMETROS ======
-VOCAB_SIZE=32000
+VOCAB_SIZE=11000
 BLOCK_SIZE=768      # ou 1024 se quiser cobrir p95
 EPOCHS=3
-BATCH_PER_GPU=4
+BATCH_PER_GPU=20
 GRAD_ACCUM=2
 LR=5e-4
 
 # ====== TREINO COM ACCELERATE ======
 # Opção 1: chamada direta (funciona bem em single-node)
-accelerate launch --config_file "$ACCEL_YAML" \
-  "$SCRIPT" \
-  --input_file "$DATA" \
-  --out_dir "$OUT" \
-  --vocab_size $VOCAB_SIZE \
-  --block_size $BLOCK_SIZE \
-  --epochs $EPOCHS \
-  --batch_size $BATCH_PER_GPU \
-  --grad_accum $GRAD_ACCUM \
-  --lr $LR \
+# Rode o treino
+accelerate launch \
+  --num_processes 3 \
+  neox.py \
+  --input_file logs/part_3.log \
+  --out_dir part3_teste \
+  --vocab_size 11000 \
+  --block_size 768 \
+  --epochs 3 \
+  --batch_size 20 \
   --amp auto \
-  --tf32 \
-  --gradient_checkpointing \
-  --compile \
-  --dataloader_workers $SLURM_CPUS_PER_TASK
-
-# # Opção 2: se preferir garantir binding pelo SLURM, use srun (descomente):
-# srun bash -lc "
-# accelerate launch --config_file $ACCEL_YAML \
-#   $SCRIPT \
-#   --input_file $DATA \
-#   --out_dir $OUT \
-#   --vocab_size $VOCAB_SIZE \
-#   --block_size $BLOCK_SIZE \
-#   --epochs $EPOCHS \
-#   --batch_size $BATCH_PER_GPU \
-#   --grad_accum $GRAD_ACCUM \
-#   --lr $LR \
-#   --amp auto \
-#   --tf32 \
-#   --gradient_checkpointing \
-#   --compile \
-#   --dataloader_workers $SLURM_CPUS_PER_TASK
-# "
+  --dataloader_workers 2

@@ -7,7 +7,7 @@ from pathlib import Path
 import sentencepiece as spm
 from datasets import load_dataset, DatasetDict
 from transformers import (
-    PreTrainedTokenizerFast,
+    T5Tokenizer,   # ⬅️ adicione
     GPTNeoXConfig,
     GPTNeoXForCausalLM,
     DataCollatorForLanguageModeling,
@@ -52,20 +52,18 @@ def train_sentencepiece(
     )
     print(f"[SPM] Treinado em {sp_prefix}.model / {sp_prefix}.vocab")
 
-
 def build_tokenizer(sp_model_path: str):
-    tokenizer = PreTrainedTokenizerFast(
-        tokenizer_file=sp_model_path,
+    assert os.path.exists(sp_model_path), f"SP model não encontrado: {sp_model_path}"
+    tok = T5Tokenizer(
+        vocab_file=sp_model_path,   # <<<<<< OBRIGATÓRIO
         bos_token="<s>",
         eos_token="</s>",
         unk_token="<unk>",
         pad_token="<pad>",
     )
-    special_tokens_dict = {"additional_special_tokens": ["<SENT_END>"]}
-    tokenizer.add_special_tokens(special_tokens_dict)
-    print("[TOK] Token especial <SENT_END> adicionado (id =",
-          tokenizer.convert_tokens_to_ids("<SENT_END>"), ")")
-    return tokenizer
+    tok.add_special_tokens({"additional_special_tokens": ["<SENT_END>"]})
+    print("[TOK] <SENT_END> id =", tok.convert_tokens_to_ids("<SENT_END>"))
+    return tok
 
 
 def prepare_stream_dataset(input_path: str, tokenizer, block_size: int, num_proc: int = 1):
@@ -250,6 +248,7 @@ def main():
         tf32=args.tf32,
         ddp_find_unused_parameters=False,  # útil em DDP
         save_safetensors=True,
+        **remove_unused_columns=False,   # <-- ADICIONE ISTO**
     )
 
     trainer = Trainer(

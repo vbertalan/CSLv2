@@ -7,7 +7,7 @@ from pathlib import Path
 import sentencepiece as spm
 from datasets import load_dataset, DatasetDict
 from transformers import (
-    T5Tokenizer,   # ⬅️ adicione
+    T5Tokenizer,
     GPTNeoXConfig,
     GPTNeoXForCausalLM,
     DataCollatorForLanguageModeling,
@@ -15,6 +15,8 @@ from transformers import (
     Trainer,
 )
 import torch
+import torch.distributed as dist
+import matplotlib.pyplot as plt
 
 
 def print_gpu_info():
@@ -52,10 +54,11 @@ def train_sentencepiece(
     )
     print(f"[SPM] Treinado em {sp_prefix}.model / {sp_prefix}.vocab")
 
+
 def build_tokenizer(sp_model_path: str):
     assert os.path.exists(sp_model_path), f"SP model não encontrado: {sp_model_path}"
     tok = T5Tokenizer(
-        vocab_file=sp_model_path,   # <<<<<< OBRIGATÓRIO
+        vocab_file=sp_model_path,
         bos_token="<s>",
         eos_token="</s>",
         unk_token="<unk>",
@@ -218,6 +221,9 @@ def main():
         max_position_embeddings=args.max_pos,
     )
 
+    # treino estável com Trainer/DDP
+    model.config.use_cache = False
+
     # Opcional: gradient checkpointing (memória ↓, compute ↑)
     if args.gradient_checkpointing:
         model.gradient_checkpointing_enable()
@@ -238,6 +244,7 @@ def main():
         learning_rate=args.lr,
         num_train_epochs=args.epochs,
         weight_decay=args.weight_decay,
+        logging_strategy="steps",
         logging_steps=50,
         save_steps=2000,
         save_total_limit=2,
@@ -248,7 +255,7 @@ def main():
         tf32=args.tf32,
         ddp_find_unused_parameters=False,  # útil em DDP
         save_safetensors=True,
-        **remove_unused_columns=False,   # <-- ADICIONE ISTO**
+        remove_unused_columns=False,
     )
 
     trainer = Trainer(
@@ -256,17 +263,56 @@ def main():
         args=training_args,
         train_dataset=ds["train"],
         data_collator=collator,
-        tokenizer=tokenizer,
+        processing_class=tokenizer,   # futuro substituto de `tokenizer=...`
     )
 
     trainer.train()
 
-    # 6) Salvar
-    save_dir = out / "final"
-    save_dir.mkdir(parents=True, exist_ok=True)
-    trainer.save_model(str(save_dir))
-    tokenizer.save_pretrained(str(save_dir))
-    print(f"[OK] Modelo e tokenizer salvos em: {save_dir}")
+    # ===== Plot do loss (apenas no processo 0) =====
+    def is_main_process():
+        try:
+            return trainer.is_world_process_zero()
+        except Exception:
+            return True
+
+    if is_main_process():
+        hist = trainer.state.log_history
+        train_steps, train_losses = [], []
+        eval_steps, eval_losses = [], []
+        for i, rec in enumerate(hist):
+            if "loss" in rec:
+                train_steps.append(rec.get("step", i))
+                train_losses.append(rec["loss"])
+            if "eval_loss" in rec:
+                eval_steps.append(rec.get("step", i))
+                eval_losses.append(rec["eval_loss"])
+
+        plt.figure(figsize=(7, 4))
+        if train_losses:
+            plt.plot(train_steps, train_losses, label="train_loss")
+        if eval_losses:
+            plt.plot(eval_steps, eval_losses, label="eval_loss", linestyle="--")
+        plt.xlabel("step")
+        plt.ylabel("loss")
+        plt.title("Training (and Eval) Loss")
+        plt.grid(True, alpha=0.3)
+        plt.legend()
+        out_plot = Path(args.out_dir) / "loss_curve.png"
+        plt.tight_layout()
+        plt.savefig(out_plot, dpi=150)
+        print(f"[OK] Gráfico de loss salvo em: {out_plot}")
+
+    # 6) Salvar (apenas no processo 0)
+    if getattr(trainer, "is_world_process_zero", lambda: True)():
+        save_dir = out / "final"
+        save_dir.mkdir(parents=True, exist_ok=True)
+        trainer.save_model(str(save_dir))
+        tokenizer.save_pretrained(str(save_dir))
+        print(f"[OK] Modelo e tokenizer salvos em: {save_dir}")
+
+    # Encerrar DDP limpo (se aplicável)
+    if dist.is_available() and dist.is_initialized():
+        dist.destroy_process_group()
 
 
 if __name__ == "__main__":

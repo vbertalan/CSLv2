@@ -100,8 +100,8 @@ accelerate launch \
   --input_file logs/part_3.log \
   --out_dir part3_teste \
   --vocab_size 11000 \
-  --block_size 768 \
-  --epochs 3 \
-  --batch_size 20 \
+  --block_size 256 \
+  --epochs 20 \
+  --batch_size 8 \
   --amp auto \
   --dataloader_workers 2

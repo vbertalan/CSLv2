@@ -147,39 +147,58 @@ def build_line_tokenizer(input_path: str, out_dir: Path, min_line_freq: int = 1)
 # ==========================
 # Dataset
 # ==========================
-def prepare_stream_dataset(input_path: str, tokenizer, block_size: int, num_proc: int = 1, line_as_token: bool = False):
+
+def prepare_stream_dataset(input_path: str, tokenizer, block_size: int, num_proc: int = 1, line_as_token: bool = False, eval_ratio: float = 0.1):
     raw = load_dataset("text", data_files={"train": input_path})
+    # tokenização
+    def tok_fn(batch):
+        return tokenizer(
+            batch["text"],
+            add_special_tokens=False,
+            return_attention_mask=True,
+            return_token_type_ids=False,
+        )
 
     if line_as_token:
-        # NENHUM delimitador; cada amostra já é 1 linha => 1 token
-        def tok_fn(batch):
-            return tokenizer(
-                batch["text"],
-                add_special_tokens=False,
-                return_attention_mask=True,
-                return_token_type_ids=False,
-            )
         mapped = raw["train"].map(tok_fn, batched=True, remove_columns=["text"], num_proc=num_proc)
-
     else:
         SENT_END = "<SENT_END>"
-
         def add_delim(example):
             txt = (example["text"] or "").strip()
-            if not txt:
-                return {"text": ""}
-            return {"text": f"{txt} {SENT_END} "}
-
+            return {"text": f"{txt} {SENT_END} "} if txt else {"text": ""}
         with_delim = raw.map(add_delim, num_proc=num_proc)
-
-        def tok_fn(batch):
-            return tokenizer(
-                batch["text"],
-                add_special_tokens=False,
-                return_attention_mask=True,
-                return_token_type_ids=False,
-            )
         mapped = with_delim["train"].map(tok_fn, batched=True, remove_columns=["text"], num_proc=num_proc)
+
+    # split ANTES de agrupar
+    spl = mapped.train_test_split(test_size=eval_ratio, shuffle=True, seed=42)
+    train_mapped, eval_mapped = spl["train"], spl["test"]
+
+    def group_texts(examples):
+        concatenated = []
+        for seq in examples["input_ids"]:
+            concatenated.extend(seq)
+        total_len = (len(concatenated) // block_size) * block_size
+        concatenated = concatenated[:total_len]
+        input_ids = [concatenated[i:i + block_size] for i in range(0, total_len, block_size)]
+        attention_mask = [[1] * len(x) for x in input_ids]
+        return {
+            "input_ids": input_ids,
+            "attention_mask": attention_mask,
+            "labels": [ids.copy() for ids in input_ids],
+        }
+
+    train_ds = train_mapped.map(group_texts, batched=True, batch_size=1000, num_proc=num_proc, remove_columns=train_mapped.column_names)
+    eval_ds  = eval_mapped.map(group_texts,  batched=True, batch_size=1000, num_proc=num_proc, remove_columns=eval_mapped.column_names)
+
+    # prints diagnósticos
+    print(f"[DATA] train_batches={len(train_ds)}  eval_batches={len(eval_ds)}  (block_size={block_size})")
+    if len(train_ds) == 0:
+        raise ValueError("Treino vazio após agrupar. Diminua --block_size.")
+    if len(eval_ds) == 0:
+        print("[WARN] Validação vazia; aumente eval_ratio ou diminua block_size.")
+
+    return DatasetDict({"train": train_ds, "eval": eval_ds})
+
 
     def group_texts(examples):
         concatenated = []
@@ -338,6 +357,7 @@ def main():
         block_size=args.block_size,
         num_proc=num_proc,
         line_as_token=args.line_as_token,
+        eval_ratio=0.2,  # 10% validação
     )
 
     # === 3) Modelo ===
@@ -370,22 +390,29 @@ def main():
         learning_rate=args.lr,
         num_train_epochs=args.epochs,
         weight_decay=args.weight_decay,
-        logging_steps=50,
-        save_steps=2000,
-        save_total_limit=2,
+
+        # >>> mais granularidade
+        logging_steps=1,
+        logging_first_step=True,
+        eval_strategy="steps",
+        eval_steps=50,              # ajuste conforme o tamanho do dataset
+        save_strategy="no",         # opcional: evitar save frequente
         report_to="none",
+
         dataloader_num_workers=args.dataloader_workers,
         bf16=amp_flags["bf16"],
         fp16=amp_flags["fp16"],
         tf32=args.tf32,
-        ddp_find_unused_parameters=False,  # útil em DDP
+        ddp_find_unused_parameters=False,
         save_safetensors=True,
     )
+
 
     trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=ds["train"],
+        eval_dataset=ds["eval"],     # <<<<<< agora tem eval!
         data_collator=collator,
         tokenizer=tokenizer,
     )
@@ -421,6 +448,7 @@ def main():
             plt.plot(eval_steps, eval_losses, label="eval_loss", linestyle="--")
         plt.xlabel("step")
         plt.ylabel("loss")
+        plt.yscale("log") 
         plt.title("Training / Eval Loss")
         plt.grid(True, alpha=0.3)
         plt.legend()
@@ -442,7 +470,7 @@ if __name__ == "__main__":
 
 # Exemplo:
 # Modo 1 linha = 1 token
-# python neoxv2.py --input_file "part_3.log" --out_dir "part_3_neoxv2" --block_size 512 --epochs 3 --batch_size 2 --line_as_token --min_line_freq 1
+# python neoxv2.py --input_file "part_3.log" --out_dir "part_3_neoxv2" --block_size 512 --epochs 20 --batch_size 2 --line_as_token --min_line_freq 1
 #
 # Modo original (SentencePiece + <SENT_END>)
 # python neox.py --input_file "part_3.log" --out_dir "part_3_neox_spm" --vocab_size 11000 --block_size 768 --epochs 3 --batch_size 2

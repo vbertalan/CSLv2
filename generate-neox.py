@@ -44,8 +44,10 @@ def main():
             top_p=args.top_p,
             temperature=args.temperature,
             pad_token_id=tok.pad_token_id,
-            stopping_criteria=stopper
+            eos_token_id=None,                      # ⬅️ desativa o corte no </s>
+            stopping_criteria=stopper               # ⬅️ agora só o seu StopAfterNSentences decide
         )
+
 
     gen_full = tok.decode(out[0][inp["input_ids"].shape[1]:], skip_special_tokens=False)
 
@@ -68,4 +70,5 @@ if __name__ == "__main__":
 #   --top_p 0.9                                                           ## → usa nucleus sampling para limitar as probabilidades acumuladas.
 
 
-#python generate-neox.py --model_dir ./Qwen3 --prompt "tput no value for term and no t specified" --num_sentences 2 --max_new_tokens 100 --temperature 0.7 --top_p 0.9     
+#python generate-neox.py --model_dir ./neoxv1-synthetic/final --prompt "Cloning repository" --num_sentences 2 --max_new_tokens 100 --temperature 0.7 --top_p 0.9     
+#python generate-neox.py --model_dir ./part_3_neox/final --prompt "tput no value for term and no t specified" --num_sentences 2 --max_new_tokens 100 --temperature 0.7 --top_p 0.9    

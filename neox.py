@@ -313,6 +313,8 @@ if __name__ == "__main__":
     main()
 
 # python neox.py --input_file "part_3.log" --out_dir "part_3_neox" --vocab_size 11000 --block_size 768 --epochs 20 --batch_size 2 
+
+# python neox.py --input_file "synthetic_sequences.txt" --out_dir "neoxv1-synthetic" --vocab_size 32000 --block_size 768 --epochs 20 --batch_size 2 
   
  # --grad_accum $GRAD_ACCUM \
  # --lr $LR \
@@ -321,3 +323,5 @@ if __name__ == "__main__":
  # --gradient_checkpointing \
  # --compile \
  # --dataloader_workers $SLURM_CPUS_PER_TASK
+
+# 

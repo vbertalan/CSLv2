@@ -88,4 +88,5 @@ def main():
 if __name__ == "__main__":
     main()
 
+# python generate-neoxv2.py   --model_dir ./neoxv2-synthetic/final   --prompt "Cloning repository"   --num_sentences 5 --max_new_tokens 100 --temperature 1 --top_p 0.9
 # python generate-neoxv2.py   --model_dir ./part_3_neoxv2/final   --prompt "mv cannot stat no such file or directory"   --num_sentences 5 --max_new_tokens 100 --temperature 1 --top_p 0.9

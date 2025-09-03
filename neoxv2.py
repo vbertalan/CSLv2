@@ -471,6 +471,7 @@ if __name__ == "__main__":
 # Exemplo:
 # Modo 1 linha = 1 token
 # python neoxv2.py --input_file "part_3.log" --out_dir "part_3_neoxv2" --block_size 512 --epochs 20 --batch_size 2 --line_as_token --min_line_freq 1
+# python neoxv2.py --input_file "synthetic_sequences.txt" --out_dir "neoxv2-synthetic" --block_size 768 --epochs 20 --batch_size 2 --line_as_token --min_line_freq 1
 #
 # Modo original (SentencePiece + <SENT_END>)
 # python neox.py --input_file "part_3.log" --out_dir "part_3_neox_spm" --vocab_size 11000 --block_size 768 --epochs 3 --batch_size 2

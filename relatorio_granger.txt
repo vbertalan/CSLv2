@@ -1,0 +1,9 @@
+=== Relatório de Granger Causality (Multivariado, Lasso) ===
+Total de variáveis: 100
+maxlag: 3
+Padronização (z-score): True
+Limiar L1 para presença de aresta: 1e-06
+Arestas detectadas: 2696
+
+CSV (agregado): relacoes_granger_synthetic.csv
+CSV (por lag): relacoes_granger_by_lag.csv

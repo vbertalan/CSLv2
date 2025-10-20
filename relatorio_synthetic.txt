@@ -1,0 +1,5 @@
+=== Relatório de Granger Causality (Multivariado) ===
+Total de variáveis analisadas: 100
+Número de relações causais detectadas: 1839
+
+CSV salvo em: relacoes_granger_synthetic.csv

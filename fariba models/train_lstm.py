@@ -4,12 +4,14 @@ from torch.utils.data import Dataset, DataLoader
 
 # ==== CONFIGURATION ====
 input_file = "all_sequences.txt"
-seq_length = 690
+seq_length = 30 ## average 17.45, maximum 690
 batch_size = 32
 embedding_dim = 64
 hidden_dim = 128
 epochs = 10
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+
 
 # ==== LOAD SEQUENCES ====
 def load_sequences(path):

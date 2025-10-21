@@ -3,10 +3,11 @@ from datasets import Dataset
 from transformers import AutoModelForCausalLM, TrainingArguments, Trainer
 
 # ==== CONFIGURATION ====
-input_file = "all_sequences.txt"
+#input_file = "all_sequences.txt"
+input_file = "sequences_mini.txt"
 model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"  # smaller model for GPU training
 output_dir = "./llama_finetuned_ids"
-seq_length = 690
+seq_length = 30
 epochs = 3
 batch_size = 2
 learning_rate = 2e-5
@@ -50,6 +51,7 @@ model = AutoModelForCausalLM.from_pretrained(
     torch_dtype=torch.bfloat16 if torch.cuda.is_available() else torch.float32
 ).to(device)
 
+
 # Resize vocabulary if necessary
 if model.config.vocab_size < vocab_size:
     model.resize_token_embeddings(vocab_size)
@@ -64,9 +66,13 @@ training_args = TrainingArguments(
     learning_rate=learning_rate,
     logging_steps=10,
     save_strategy="epoch",
-    fp16=torch.cuda.is_available(),
+    bf16=True,                   # ✅ usar bfloat16, ideal no H100
+    fp16=False,                  # ❌ desativa fp16 para evitar o erro
+    max_grad_norm=1.0,
+    ddp_find_unused_parameters=False,
     report_to="none",
 )
+
 
 # ==== TRAIN ====
 trainer = Trainer(
